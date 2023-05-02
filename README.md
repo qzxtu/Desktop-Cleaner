@@ -1,2 +1,2 @@
 # Desktop-Cleaner
-Desktop file organizer that sorts files and folders into specific subfolders based on file type. Reads a config file and logs actions for troubleshooting
+This program is a desktop file organizer. It sorts files and folders on the user’s desktop into specific subfolders based on their file type or other criteria. The program reads a configuration file (config.json) to determine which file extensions belong to which categories (e.g., images, audio, videos, etc.). If the configuration file does not exist, the program creates a default one. The program also logs its actions to a log file (log.txt) for troubleshooting purposes.
