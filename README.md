@@ -19,6 +19,8 @@
   <li>(Optional) Modify the <code>config.json</code> file to customize the sorting behavior.</li>
 </ol>
 
+<h2>Credits</h2>
+
 <p>This program is a modified version of the <a href="https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html">Messy Desktop Cleaner</a> program. The code was modified by <a href="https://github.com/qzxtu">qzxtu</a>.</p>
 
 <h2>FAQ</h2>
