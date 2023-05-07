@@ -1,6 +1,6 @@
-<h1>Desktop File Organizer</h1>
+# 桌面文件管理器
 
-<p>This program sorts files and folders on the user's desktop into specific subfolders based on their file type or other criteria. This is a modified version of the <a href="https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html">Messy Desktop Cleaner</a> program.</p>
+该程序根据文件类型或其他标准将用户桌面上的文件和文件夹分类到特定的子文件夹中。这是修改后的版本[凌乱的桌面清洁工](https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html)程序。
 
 ## 翻译
 
@@ -8,38 +8,37 @@
 | --------------- | ----------------------- | ----------------------- | ------------------- | ------------------ | ------------------- | ------------------ | ------------------- | -------------------- |
 | [英语](README.md) | [简体中文](README.zh-CN.md) | [繁体中文](README.zh-TW.md) | [印地语](README.hi.md) | [法语](README.fr.md) | [阿拉伯](README.ar.md) | [德语](README.de.md) | [日本人](README.ja.md) | [西班牙语](README.es.md) |
 
-<h2>Features</h2>
+## 特征
 
-<ul>
-  <li>Sorts files into subfolders based on file type (e.g., images, audio, videos, etc.)</li>
-  <li>Reads a configuration file (<code>config.json</code>) to determine which file extensions belong to which categories</li>
-  <li>Creates a default configuration file if it doesn't already exist</li>
-  <li>Logs actions to a log file (<code>log.txt</code>) for troubleshooting purposes</li>
-</ul>
+-   根据文件类型（例如图像、音频、视频等）将文件分类到子文件夹中
+-   读取配置文件 (config.json) 以确定哪些文件扩展名属于哪些类别
+-   如果不存在则创建默认配置文件
+-   将操作记录到日志文件 (log.txt) 以进行故障排除
 
-<h2>Usage</h2>
+## 用法
 
-<ol>
-  <li>Download the program and place it in a directory of your choice.</li>
-  <li>Run the program. It will automatically sort the files and folders on your desktop.</li>
-  <li>(Optional) Modify the <code>config.json</code> file to customize the sorting behavior.</li>
-</ol>
+1.  下载程序并将其放在您选择的目录中。
+2.  运行程序。它会自动对桌面上的文件和文件夹进行排序。
+3.  （可选）修改 config.json 文件以自定义排序行为。
 
-<h2>Credits</h2>
+## 学分
 
-<p>This program is a modified version of the <a href="https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html">Messy Desktop Cleaner</a> program. The code was modified by <a href="https://github.com/qzxtu">qzxtu</a>.</p>
+这个程序是修改后的版本[凌乱的桌面清洁工](https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html)程序。代码被修改了[qzxtu](https://github.com/qzxtu).
 
-<h2>FAQ</h2>
+## FAQ
 
-<p><strong>Q: What does this program do?</strong></p>
-<p>A: This program sorts files and folders on the user's desktop into specific subfolders based on their file type or other criteria.</p>
+**问：这个程序有什么作用？**
 
-<p><strong>Q: How does this program determine which files go into which subfolders?</strong></p>
-<p>A: The program reads a configuration file (<code>config.json</code>) to determine which file extensions belong to which categories (e.g., images, audio, videos, etc.). You can modify this file to customize the sorting behavior.</p>
+答：该程序根据文件类型或其他标准将用户桌面上的文件和文件夹分类到特定的子文件夹中。
 
-<p><strong>Q: What if the <code>config.json</code> file doesn't exist?</strong></p>
-<p>A: If the <code>config.json</code> file doesn't exist, the program will create a default one with pre-defined values for each category.</p>
+**问：这个程序如何确定哪些文件进入哪些子文件夹？**
 
-<h2>License</h2>
+A: The program reads a configuration file (config.json) to determine which file extensions belong to which categories (e.g., images, audio, videos, etc.). You can modify this file to customize the sorting behavior.
 
-<p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
+**Q：config.json文件不存在怎么办？**
+
+答：如果 config.json 文件不存在，程序将为每个类别创建一个具有预定义值的默认文件。
+
+## 执照
+
+这个项目是根据麻省理工学院许可证获得许可的。见[执照](LICENSE)文件的详细信息。
