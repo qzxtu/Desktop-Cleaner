@@ -1,6 +1,6 @@
-<h1>Desktop File Organizer</h1>
+# Desktop-Datei-Organizer
 
-<p>This program sorts files and folders on the user's desktop into specific subfolders based on their file type or other criteria. This is a modified version of the <a href="https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html">Messy Desktop Cleaner</a> program.</p>
+Dieses Programm sortiert Dateien und Ordner auf dem Desktop des Benutzers in bestimmte Unterordner basierend auf ihrem Dateityp oder anderen Kriterien. Dies ist eine modifizierte Version des[Unordentlicher Desktop-Reiniger](https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html)Programm.
 
 ## Übersetzung
 
@@ -8,38 +8,37 @@
 | --------------------- | ------------------------------------------- | -------------------------------------------- | --------------------- | --------------------------- | ------------------------ | ----------------------- | ------------------------- | ------------------------ |
 | [Englisch](README.md) | [Vereinfachtes Chinesisch](README.zh-CN.md) | [traditionelles Chinesisch](README.zh-TW.md) | [Hindi](README.hi.md) | [Französisch](README.fr.md) | [Arabisch](README.ar.md) | [Deutsch](README.de.md) | [japanisch](README.ja.md) | [Spanisch](README.es.md) |
 
-<h2>Features</h2>
+## Merkmale
 
-<ul>
-  <li>Sorts files into subfolders based on file type (e.g., images, audio, videos, etc.)</li>
-  <li>Reads a configuration file (<code>config.json</code>) to determine which file extensions belong to which categories</li>
-  <li>Creates a default configuration file if it doesn't already exist</li>
-  <li>Logs actions to a log file (<code>log.txt</code>) for troubleshooting purposes</li>
-</ul>
+-   Sortiert Dateien basierend auf dem Dateityp (z. B. Bilder, Audio, Videos usw.) in Unterordner
+-   Liest eine Konfigurationsdatei (config.json), um zu bestimmen, welche Dateierweiterungen zu welchen Kategorien gehören
+-   Erstellt eine Standardkonfigurationsdatei, falls noch nicht vorhanden
+-   Protokolliert Aktionen zu Fehlerbehebungszwecken in einer Protokolldatei (log.txt).
 
-<h2>Usage</h2>
+## Usage
 
-<ol>
-  <li>Download the program and place it in a directory of your choice.</li>
-  <li>Run the program. It will automatically sort the files and folders on your desktop.</li>
-  <li>(Optional) Modify the <code>config.json</code> file to customize the sorting behavior.</li>
-</ol>
+1.  Laden Sie das Programm herunter und legen Sie es in einem Verzeichnis Ihrer Wahl ab.
+2.  Führen Sie das Programm aus. Es sortiert automatisch die Dateien und Ordner auf Ihrem Desktop.
+3.  (Optional) Ändern Sie die Datei config.json, um das Sortierverhalten anzupassen.
 
-<h2>Credits</h2>
+## Kredite
 
-<p>This program is a modified version of the <a href="https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html">Messy Desktop Cleaner</a> program. The code was modified by <a href="https://github.com/qzxtu">qzxtu</a>.</p>
+Dieses Programm ist eine modifizierte Version des[Unordentlicher Desktop-Reiniger](https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html)Programm. Der Code wurde geändert von[qzxtu](https://github.com/qzxtu).
 
-<h2>FAQ</h2>
+## FAQ
 
-<p><strong>Q: What does this program do?</strong></p>
-<p>A: This program sorts files and folders on the user's desktop into specific subfolders based on their file type or other criteria.</p>
+**F: Was macht dieses Programm?**
 
-<p><strong>Q: How does this program determine which files go into which subfolders?</strong></p>
-<p>A: The program reads a configuration file (<code>config.json</code>) to determine which file extensions belong to which categories (e.g., images, audio, videos, etc.). You can modify this file to customize the sorting behavior.</p>
+A: Dieses Programm sortiert Dateien und Ordner auf dem Desktop des Benutzers in bestimmte Unterordner basierend auf ihrem Dateityp oder anderen Kriterien.
 
-<p><strong>Q: What if the <code>config.json</code> file doesn't exist?</strong></p>
-<p>A: If the <code>config.json</code> file doesn't exist, the program will create a default one with pre-defined values for each category.</p>
+**F: Wie bestimmt dieses Programm, welche Dateien in welchen Unterordnern landen?**
 
-<h2>License</h2>
+A: Das Programm liest eine Konfigurationsdatei (config.json), um festzustellen, welche Dateierweiterungen zu welchen Kategorien gehören (z. B. Bilder, Audio, Videos usw.). Sie können diese Datei ändern, um das Sortierverhalten anzupassen.
 
-<p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
+**F: Was ist, wenn die Datei config.json nicht vorhanden ist?**
+
+A: Wenn die Datei config.json nicht existiert, erstellt das Programm eine Standarddatei mit vordefinierten Werten für jede Kategorie.
+
+## Lizenz
+
+Dieses Projekt ist unter der MIT-Lizenz lizenziert. Siehe die[LIZENZ](LICENSE)Datei für Details.
