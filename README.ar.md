@@ -1,6 +1,6 @@
-<h1>Desktop File Organizer</h1>
+# منظم ملفات سطح المكتب
 
-<p>This program sorts files and folders on the user's desktop into specific subfolders based on their file type or other criteria. This is a modified version of the <a href="https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html">Messy Desktop Cleaner</a> program.</p>
+يقوم هذا البرنامج بفرز الملفات والمجلدات الموجودة على سطح مكتب المستخدم إلى مجلدات فرعية محددة بناءً على نوع الملف أو معايير أخرى. هذه نسخة معدلة من[منظف ​​سطح المكتب الفوضوي](https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html)برنامج.
 
 ## ترجمة
 
@@ -8,38 +8,37 @@
 | -------------------- | ---------------------------------- | ------------------------------------ | -------------------- | --------------------- | -------------------- | ---------------------- | ------------------------- | ------------------------- |
 | [إنجليزي](README.md) | [الصينية المبسطة](README.zh-CN.md) | [الصينية التقليدية](README.zh-TW.md) | [هندي](README.hi.md) | [فرنسي](README.fr.md) | [عربى](README.ar.md) | [ألماني](README.de.md) | [اليابانية](README.ja.md) | [الأسبانية](README.es.md) |
 
-<h2>Features</h2>
+## سمات
 
-<ul>
-  <li>Sorts files into subfolders based on file type (e.g., images, audio, videos, etc.)</li>
-  <li>Reads a configuration file (<code>config.json</code>) to determine which file extensions belong to which categories</li>
-  <li>Creates a default configuration file if it doesn't already exist</li>
-  <li>Logs actions to a log file (<code>log.txt</code>) for troubleshooting purposes</li>
-</ul>
+-   يفرز الملفات في مجلدات فرعية بناءً على نوع الملف (على سبيل المثال ، الصور ، الصوت ، مقاطع الفيديو ، إلخ.)
+-   يقرأ ملف التكوين (config.json) لتحديد امتدادات الملفات التي تنتمي إلى الفئات
+-   ينشئ ملف تكوين افتراضي إذا لم يكن موجودًا بالفعل
+-   يسجل الإجراءات في ملف السجل (log.txt) لأغراض استكشاف الأخطاء وإصلاحها
 
-<h2>Usage</h2>
+## إستعمال
 
-<ol>
-  <li>Download the program and place it in a directory of your choice.</li>
-  <li>Run the program. It will automatically sort the files and folders on your desktop.</li>
-  <li>(Optional) Modify the <code>config.json</code> file to customize the sorting behavior.</li>
-</ol>
+1.  قم بتنزيل البرنامج وضعه في دليل من اختيارك.
+2.  تشغيل البرنامج. سيقوم تلقائيًا بفرز الملفات والمجلدات الموجودة على سطح المكتب الخاص بك.
+3.  (اختياري) قم بتعديل ملف config.json لتخصيص سلوك الفرز.
 
-<h2>Credits</h2>
+## الاعتمادات
 
-<p>This program is a modified version of the <a href="https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html">Messy Desktop Cleaner</a> program. The code was modified by <a href="https://github.com/qzxtu">qzxtu</a>.</p>
+هذا البرنامج هو نسخة معدلة من[منظف ​​سطح المكتب الفوضوي](https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html)برنامج. تم تعديل الرمز بواسطة[qzxtu](https://github.com/qzxtu).
 
-<h2>FAQ</h2>
+## التعليمات
 
-<p><strong>Q: What does this program do?</strong></p>
-<p>A: This program sorts files and folders on the user's desktop into specific subfolders based on their file type or other criteria.</p>
+**س: ماذا يفعل هذا البرنامج؟**
 
-<p><strong>Q: How does this program determine which files go into which subfolders?</strong></p>
-<p>A: The program reads a configuration file (<code>config.json</code>) to determine which file extensions belong to which categories (e.g., images, audio, videos, etc.). You can modify this file to customize the sorting behavior.</p>
+ج: يقوم هذا البرنامج بفرز الملفات والمجلدات الموجودة على سطح مكتب المستخدم في مجلدات فرعية محددة بناءً على نوع الملف أو معايير أخرى.
 
-<p><strong>Q: What if the <code>config.json</code> file doesn't exist?</strong></p>
-<p>A: If the <code>config.json</code> file doesn't exist, the program will create a default one with pre-defined values for each category.</p>
+**س: كيف يحدد هذا البرنامج الملفات التي تدخل إلى أي مجلدات فرعية؟**
 
-<h2>License</h2>
+ج: يقرأ البرنامج ملف التكوين (config.json) لتحديد امتدادات الملفات التي تنتمي إلى الفئات (على سبيل المثال ، الصور ، الصوت ، مقاطع الفيديو ، إلخ). يمكنك تعديل هذا الملف لتخصيص سلوك الفرز.
 
-<p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
+**س: ماذا لو كان ملف config.json غير موجود؟**
+
+ج: إذا لم يكن ملف config.json موجودًا ، فسيقوم البرنامج بإنشاء ملف افتراضي بقيم محددة مسبقًا لكل فئة.
+
+## رخصة
+
+هذا المشروع مرخص بموجب ترخيص MIT. انظر[رخصة](LICENSE)ملف للحصول على التفاصيل.
