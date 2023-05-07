@@ -2,6 +2,12 @@
 
 <p>This program sorts files and folders on the user's desktop into specific subfolders based on their file type or other criteria. This is a modified version of the <a href="https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html">Messy Desktop Cleaner</a> program.</p>
 
+## ترجمة
+
+| 🇺🇸                 | 🇨🇳                               | 🇹🇼                                 | 🇮🇳                 | 🇫🇷                  | 🇦🇪                 | 🇩🇪                   | 🇯🇵                      | 🇪🇸                      |
+| -------------------- | ---------------------------------- | ------------------------------------ | -------------------- | --------------------- | -------------------- | ---------------------- | ------------------------- | ------------------------- |
+| [إنجليزي](README.md) | [الصينية المبسطة](README.zh-CN.md) | [الصينية التقليدية](README.zh-TW.md) | [هندي](README.hi.md) | [فرنسي](README.fr.md) | [عربى](README.ar.md) | [ألماني](README.de.md) | [اليابانية](README.ja.md) | [الأسبانية](README.es.md) |
+
 <h2>Features</h2>
 
 <ul>
