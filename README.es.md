@@ -1,6 +1,6 @@
-<h1>Desktop File Organizer</h1>
+# Organizador de archivos de escritorio
 
-<p>This program sorts files and folders on the user's desktop into specific subfolders based on their file type or other criteria. This is a modified version of the <a href="https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html">Messy Desktop Cleaner</a> program.</p>
+Este programa clasifica los archivos y las carpetas del escritorio del usuario en subcarpetas específicas según el tipo de archivo u otros criterios. Esta es una versión modificada del[Limpiador de escritorio desordenado](https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html)programa.
 
 ## Traducción
 
@@ -8,38 +8,37 @@
 | ------------------- | ------------------------------------- | ------------------------------------ | --------------------- | ------------------------ | --------------------- | ---------------------- | ----------------------- | ----------------------- |
 | [Inglés](README.md) | [chino simplificado](README.zh-CN.md) | [chino tradicional](README.zh-TW.md) | [hindi](README.hi.md) | [Francésa](README.fr.md) | [árabe](README.ar.md) | [Alemán](README.de.md) | [japonés](README.ja.md) | [Español](README.es.md) |
 
-<h2>Features</h2>
+## Características
 
-<ul>
-  <li>Sorts files into subfolders based on file type (e.g., images, audio, videos, etc.)</li>
-  <li>Reads a configuration file (<code>config.json</code>) to determine which file extensions belong to which categories</li>
-  <li>Creates a default configuration file if it doesn't already exist</li>
-  <li>Logs actions to a log file (<code>log.txt</code>) for troubleshooting purposes</li>
-</ul>
+-   Ordena los archivos en subcarpetas según el tipo de archivo (por ejemplo, imágenes, audio, videos, etc.)
+-   Lee un archivo de configuración (config.json) para determinar qué extensiones de archivo pertenecen a qué categorías
+-   Crea un archivo de configuración predeterminado si aún no existe
+-   Registra acciones en un archivo de registro (log.txt) para solucionar problemas
 
-<h2>Usage</h2>
+## Uso
 
-<ol>
-  <li>Download the program and place it in a directory of your choice.</li>
-  <li>Run the program. It will automatically sort the files and folders on your desktop.</li>
-  <li>(Optional) Modify the <code>config.json</code> file to customize the sorting behavior.</li>
-</ol>
+1.  Descargue el programa y colóquelo en un directorio de su elección.
+2.  Ejecuta el programa. Ordenará automáticamente los archivos y carpetas en su escritorio.
+3.  (Opcional) Modifique el archivo config.json para personalizar el comportamiento de clasificación.
 
-<h2>Credits</h2>
+## Créditos
 
-<p>This program is a modified version of the <a href="https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html">Messy Desktop Cleaner</a> program. The code was modified by <a href="https://github.com/qzxtu">qzxtu</a>.</p>
+Este programa es una versión modificada del[Limpiador de escritorio desordenado](https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html)programa. El código fue modificado por[qzxtu](https://github.com/qzxtu).
 
-<h2>FAQ</h2>
+## Preguntas más frecuentes
 
-<p><strong>Q: What does this program do?</strong></p>
-<p>A: This program sorts files and folders on the user's desktop into specific subfolders based on their file type or other criteria.</p>
+**P: ¿Qué hace este programa?**
 
-<p><strong>Q: How does this program determine which files go into which subfolders?</strong></p>
-<p>A: The program reads a configuration file (<code>config.json</code>) to determine which file extensions belong to which categories (e.g., images, audio, videos, etc.). You can modify this file to customize the sorting behavior.</p>
+R: Este programa clasifica los archivos y las carpetas del escritorio del usuario en subcarpetas específicas según el tipo de archivo u otros criterios.
 
-<p><strong>Q: What if the <code>config.json</code> file doesn't exist?</strong></p>
-<p>A: If the <code>config.json</code> file doesn't exist, the program will create a default one with pre-defined values for each category.</p>
+**P: ¿Cómo determina este programa qué archivos van en qué subcarpetas?**
 
-<h2>License</h2>
+R: El programa lee un archivo de configuración (config.json) para determinar qué extensiones de archivo pertenecen a qué categorías (por ejemplo, imágenes, audio, videos, etc.). Puede modificar este archivo para personalizar el comportamiento de clasificación.
 
-<p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
+**P: ¿Qué pasa si el archivo config.json no existe?**
+
+R: Si el archivo config.json no existe, el programa creará uno predeterminado con valores predefinidos para cada categoría.
+
+## Licencia
+
+Este proyecto está autorizado bajo la Licencia MIT. Ver el[LICENCIA](LICENSE)archivo para más detalles.
