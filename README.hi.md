@@ -1,6 +1,6 @@
-<h1>Desktop File Organizer</h1>
+# डेस्कटॉप फ़ाइल आयोजक
 
-<p>This program sorts files and folders on the user's desktop into specific subfolders based on their file type or other criteria. This is a modified version of the <a href="https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html">Messy Desktop Cleaner</a> program.</p>
+यह प्रोग्राम उपयोगकर्ता के डेस्कटॉप पर फ़ाइलों और फ़ोल्डरों को उनके फ़ाइल प्रकार या अन्य मानदंडों के आधार पर विशिष्ट सबफ़ोल्डर्स में सॉर्ट करता है। यह का संशोधित संस्करण है[गन्दा डेस्कटॉप क्लीनर](https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html)कार्यक्रम।
 
 ## अनुवाद
 
@@ -8,38 +8,37 @@
 | ---------------------- | ------------------------------- | -------------------------------- | --------------------- | ---------------------- | ------------------- | --------------------- | ---------------------- | ----------------------- |
 | [अंग्रेज़ी](README.md) | [सरलीकृत चीनी](README.zh-CN.md) | [परंपरागत चीनी](README.zh-TW.md) | [हिंदी](README.hi.md) | [फ्रेंच](README.fr.md) | [अरब](README.ar.md) | [जर्मन](README.de.md) | [जापानी](README.ja.md) | [स्पैनिश](README.es.md) |
 
-<h2>Features</h2>
+## विशेषताएँ
 
-<ul>
-  <li>Sorts files into subfolders based on file type (e.g., images, audio, videos, etc.)</li>
-  <li>Reads a configuration file (<code>config.json</code>) to determine which file extensions belong to which categories</li>
-  <li>Creates a default configuration file if it doesn't already exist</li>
-  <li>Logs actions to a log file (<code>log.txt</code>) for troubleshooting purposes</li>
-</ul>
+-   फ़ाइल प्रकार (जैसे, चित्र, ऑडियो, वीडियो, आदि) के आधार पर फ़ाइलों को सबफ़ोल्डर में सॉर्ट करता है।
+-   यह निर्धारित करने के लिए कॉन्फ़िगरेशन फ़ाइल (config.json) पढ़ता है कि कौन सी फ़ाइल एक्सटेंशन किस श्रेणी से संबंधित हैं
+-   यदि यह पहले से मौजूद नहीं है तो एक डिफ़ॉल्ट कॉन्फ़िगरेशन फ़ाइल बनाता है
+-   समस्या निवारण उद्देश्यों के लिए एक लॉग फ़ाइल (log.txt) में क्रियाओं को लॉग करता है
 
-<h2>Usage</h2>
+## प्रयोग
 
-<ol>
-  <li>Download the program and place it in a directory of your choice.</li>
-  <li>Run the program. It will automatically sort the files and folders on your desktop.</li>
-  <li>(Optional) Modify the <code>config.json</code> file to customize the sorting behavior.</li>
-</ol>
+1.  प्रोग्राम डाउनलोड करें और इसे अपनी पसंद की निर्देशिका में रखें।
+2.  प्रोग्राम चलाएँ। यह स्वचालित रूप से आपके डेस्कटॉप पर फ़ाइलों और फ़ोल्डरों को सॉर्ट करेगा।
+3.  (वैकल्पिक) छँटाई व्यवहार को अनुकूलित करने के लिए config.json फ़ाइल को संशोधित करें।
 
-<h2>Credits</h2>
+## क्रेडिट
 
-<p>This program is a modified version of the <a href="https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html">Messy Desktop Cleaner</a> program. The code was modified by <a href="https://github.com/qzxtu">qzxtu</a>.</p>
+यह प्रोग्राम का एक संशोधित संस्करण है[गन्दा डेस्कटॉप क्लीनर](https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html)कार्यक्रम। कोड द्वारा संशोधित किया गया था[qzxtu](https://github.com/qzxtu).
 
-<h2>FAQ</h2>
+## सामान्य प्रश्न
 
-<p><strong>Q: What does this program do?</strong></p>
-<p>A: This program sorts files and folders on the user's desktop into specific subfolders based on their file type or other criteria.</p>
+**प्रश्न: यह कार्यक्रम क्या करता है?**
 
-<p><strong>Q: How does this program determine which files go into which subfolders?</strong></p>
-<p>A: The program reads a configuration file (<code>config.json</code>) to determine which file extensions belong to which categories (e.g., images, audio, videos, etc.). You can modify this file to customize the sorting behavior.</p>
+ए: यह प्रोग्राम उपयोगकर्ता के डेस्कटॉप पर फ़ाइलों और फ़ोल्डरों को उनके फ़ाइल प्रकार या अन्य मानदंडों के आधार पर विशिष्ट सबफ़ोल्डर्स में सॉर्ट करता है।
 
-<p><strong>Q: What if the <code>config.json</code> file doesn't exist?</strong></p>
-<p>A: If the <code>config.json</code> file doesn't exist, the program will create a default one with pre-defined values for each category.</p>
+**Q: How does this program determine which files go into which subfolders?**
 
-<h2>License</h2>
+ए: प्रोग्राम यह निर्धारित करने के लिए एक कॉन्फ़िगरेशन फ़ाइल (config.json) पढ़ता है कि कौन सी फ़ाइल एक्सटेंशन किस श्रेणी (जैसे, चित्र, ऑडियो, वीडियो, आदि) से संबंधित हैं। सॉर्टिंग व्यवहार को अनुकूलित करने के लिए आप इस फ़ाइल को संशोधित कर सकते हैं।
 
-<p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
+**प्रश्न: क्या होगा अगर config.json फ़ाइल मौजूद नहीं है?**
+
+A: यदि config.json फ़ाइल मौजूद नहीं है, तो प्रोग्राम प्रत्येक श्रेणी के लिए पूर्व-निर्धारित मानों के साथ एक डिफ़ॉल्ट फ़ाइल बनाएगा।
+
+## लाइसेंस
+
+यह परियोजना एमआईटी लाइसेंस के तहत लाइसेंस प्राप्त है। देखें[लाइसेंस](LICENSE)विवरण के लिए फ़ाइल।
