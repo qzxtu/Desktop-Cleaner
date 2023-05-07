@@ -1,45 +1,44 @@
-<h1>Desktop File Organizer</h1>
+# デスクトップ ファイル オーガナイザー
 
-<p>This program sorts files and folders on the user's desktop into specific subfolders based on their file type or other criteria. This is a modified version of the <a href="https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html">Messy Desktop Cleaner</a> program.</p>
+このプログラムは、ファイルの種類やその他の基準に基づいて、ユーザーのデスクトップ上のファイルとフォルダーを特定のサブフォルダーに分類します。これは、[Messy Desktop Cleaner](https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html)プログラム。
 
 ## 翻訳
 
-| 🇺🇸            | 🇨🇳                      | 🇹🇼                    | 🇮🇳                   | 🇫🇷                      | 🇦🇪                | 🇩🇪                 | 🇯🇵                | 🇪🇸                  |
-| --------------- | ------------------------- | ----------------------- | ---------------------- | ------------------------- | ------------------- | -------------------- | ------------------- | --------------------- |
-| [英語](README.md) | [簡体字中国語](README.zh-CN.md) | [繁体中文](README.zh-TW.md) | [ヒンディー語](README.hi.md) | [Française](README.fr.md) | [アラブ](README.ar.md) | [ドイツ人](README.de.md) | [日本語](README.ja.md) | [スペイン語](README.es.md) |
+| 🇺🇸            | 🇨🇳                      | 🇹🇼                    | 🇮🇳                   | 🇫🇷                  | 🇦🇪                | 🇩🇪                 | 🇯🇵                | 🇪🇸                  |
+| --------------- | ------------------------- | ----------------------- | ---------------------- | --------------------- | ------------------- | -------------------- | ------------------- | --------------------- |
+| [英語](README.md) | [簡体字中国語](README.zh-CN.md) | [繁体中文](README.zh-TW.md) | [ヒンディー語](README.hi.md) | [フランス語](README.fr.md) | [アラブ](README.ar.md) | [ドイツ人](README.de.md) | [日本語](README.ja.md) | [スペイン語](README.es.md) |
 
-<h2>Features</h2>
+## 特徴
 
-<ul>
-  <li>Sorts files into subfolders based on file type (e.g., images, audio, videos, etc.)</li>
-  <li>Reads a configuration file (<code>config.json</code>) to determine which file extensions belong to which categories</li>
-  <li>Creates a default configuration file if it doesn't already exist</li>
-  <li>Logs actions to a log file (<code>log.txt</code>) for troubleshooting purposes</li>
-</ul>
+-   ファイルの種類 (画像、オーディオ、ビデオなど) に基づいてファイルをサブフォルダーに分類します。
+-   構成ファイル (config.json) を読み取り、どのファイル拡張子がどのカテゴリに属しているかを判別します
+-   まだ存在しない場合は、デフォルトの構成ファイルを作成します
+-   トラブルシューティングの目的で、アクションをログ ファイル (log.txt) に記録します。
 
-<h2>Usage</h2>
+## 使用法
 
-<ol>
-  <li>Download the program and place it in a directory of your choice.</li>
-  <li>Run the program. It will automatically sort the files and folders on your desktop.</li>
-  <li>(Optional) Modify the <code>config.json</code> file to customize the sorting behavior.</li>
-</ol>
+1.  プログラムをダウンロードし、選択したディレクトリに配置します。
+2.  プログラムを実行します。デスクトップ上のファイルとフォルダーを自動的に並べ替えます。
+3.  (オプション) config.json ファイルを変更して、並べ替えの動作をカスタマイズします。
 
-<h2>Credits</h2>
+## クレジット
 
-<p>This program is a modified version of the <a href="https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html">Messy Desktop Cleaner</a> program. The code was modified by <a href="https://github.com/qzxtu">qzxtu</a>.</p>
+このプログラムは、[乱雑なデスクトップ クリーナー](https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html)プログラム。コードはによって変更されました[qzxtu](https://github.com/qzxtu)。
 
-<h2>FAQ</h2>
+## よくある質問
 
-<p><strong>Q: What does this program do?</strong></p>
-<p>A: This program sorts files and folders on the user's desktop into specific subfolders based on their file type or other criteria.</p>
+**Q: このプログラムは何をしますか?**
 
-<p><strong>Q: How does this program determine which files go into which subfolders?</strong></p>
-<p>A: The program reads a configuration file (<code>config.json</code>) to determine which file extensions belong to which categories (e.g., images, audio, videos, etc.). You can modify this file to customize the sorting behavior.</p>
+A: このプログラムは、ファイルの種類やその他の基準に基づいて、ユーザーのデスクトップ上のファイルとフォルダーを特定のサブフォルダーに分類します。
 
-<p><strong>Q: What if the <code>config.json</code> file doesn't exist?</strong></p>
-<p>A: If the <code>config.json</code> file doesn't exist, the program will create a default one with pre-defined values for each category.</p>
+**Q: このプログラムは、どのファイルがどのサブフォルダーに入るかをどのように判断しますか?**
 
-<h2>License</h2>
+A: プログラムは構成ファイル (config.json) を読み取り、どのファイル拡張子がどのカテゴリ (画像、オーディオ、ビデオなど) に属しているかを判断します。このファイルを変更して、並べ替えの動作をカスタマイズできます。
 
-<p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
+**Q: config.json ファイルが存在しない場合はどうなりますか?**
+
+A: config.json ファイルが存在しない場合、プログラムは各カテゴリの定義済みの値を持つデフォルトのファイルを作成します。
+
+## ライセンス
+
+このプロジェクトは、MIT ライセンスの下でライセンスされています。を参照してください[ライセンス](LICENSE)詳細については、ファイルを参照してください。
