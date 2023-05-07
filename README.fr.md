@@ -1,45 +1,44 @@
-<h1>Desktop File Organizer</h1>
+# Organisateur de fichiers de bureau
 
-<p>This program sorts files and folders on the user's desktop into specific subfolders based on their file type or other criteria. This is a modified version of the <a href="https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html">Messy Desktop Cleaner</a> program.</p>
+Ce programme trie les fichiers et les dossiers sur le bureau de l'utilisateur dans des sous-dossiers spécifiques en fonction de leur type de fichier ou d'autres critères. Il s'agit d'une version modifiée du[Nettoyant de bureau désordonné](https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html)programme.
 
 ## Traduction
 
-| 🇺🇸                 | 🇨🇳                                 | 🇹🇼                                    | 🇮🇳                  | 🇫🇷                      | 🇦🇪                 | 🇩🇪                     | 🇯🇵                     | 🇪🇸                     |
-| -------------------- | ------------------------------------ | --------------------------------------- | --------------------- | ------------------------- | -------------------- | ------------------------ | ------------------------ | ------------------------ |
-| [Anglais](README.md) | [Chinois simplifié](README.zh-CN.md) | [chinois traditionnel](README.zh-TW.md) | [hindi](README.hi.md) | [Française](README.fr.md) | [عربى](README.ar.md) | [Allemand](README.de.md) | [Japonais](README.ja.md) | [Espagnol](README.es.md) |
+| 🇺🇸                 | 🇨🇳                                 | 🇹🇼                                    | 🇮🇳                  | 🇫🇷                      | 🇦🇪                  | 🇩🇪                     | 🇯🇵                     | 🇪🇸                     |
+| -------------------- | ------------------------------------ | --------------------------------------- | --------------------- | ------------------------- | --------------------- | ------------------------ | ------------------------ | ------------------------ |
+| [Anglais](README.md) | [Chinois simplifié](README.zh-CN.md) | [chinois traditionnel](README.zh-TW.md) | [hindi](README.hi.md) | [Française](README.fr.md) | [arabe](README.ar.md) | [Allemand](README.de.md) | [Japonais](README.ja.md) | [Espagnol](README.es.md) |
 
-<h2>Features</h2>
+## Caractéristiques
 
-<ul>
-  <li>Sorts files into subfolders based on file type (e.g., images, audio, videos, etc.)</li>
-  <li>Reads a configuration file (<code>config.json</code>) to determine which file extensions belong to which categories</li>
-  <li>Creates a default configuration file if it doesn't already exist</li>
-  <li>Logs actions to a log file (<code>log.txt</code>) for troubleshooting purposes</li>
-</ul>
+-   Trie les fichiers en sous-dossiers en fonction du type de fichier (par exemple, images, audio, vidéos, etc.)
+-   Lit un fichier de configuration (config.json) pour déterminer quelles extensions de fichier appartiennent à quelles catégories
+-   Crée un fichier de configuration par défaut s'il n'existe pas déjà
+-   Consigne les actions dans un fichier journal (log.txt) à des fins de dépannage
 
-<h2>Usage</h2>
+## Usage
 
-<ol>
-  <li>Download the program and place it in a directory of your choice.</li>
-  <li>Run the program. It will automatically sort the files and folders on your desktop.</li>
-  <li>(Optional) Modify the <code>config.json</code> file to customize the sorting behavior.</li>
-</ol>
+1.  Téléchargez le programme et placez-le dans un répertoire de votre choix.
+2.  Exécutez le programme. Il triera automatiquement les fichiers et dossiers sur votre bureau.
+3.  (Facultatif) Modifiez le fichier config.json pour personnaliser le comportement de tri.
 
-<h2>Credits</h2>
+## Crédits
 
-<p>This program is a modified version of the <a href="https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html">Messy Desktop Cleaner</a> program. The code was modified by <a href="https://github.com/qzxtu">qzxtu</a>.</p>
+Ce programme est une version modifiée du[Nettoyant de bureau désordonné](https://www.unknowncheats.me/forum/c-/578800-messy-desktop-cleaner.html)programme. Le code a été modifié par[qzxtu](https://github.com/qzxtu).
 
-<h2>FAQ</h2>
+## FAQ
 
-<p><strong>Q: What does this program do?</strong></p>
-<p>A: This program sorts files and folders on the user's desktop into specific subfolders based on their file type or other criteria.</p>
+**Q : À quoi sert ce programme ?**
 
-<p><strong>Q: How does this program determine which files go into which subfolders?</strong></p>
-<p>A: The program reads a configuration file (<code>config.json</code>) to determine which file extensions belong to which categories (e.g., images, audio, videos, etc.). You can modify this file to customize the sorting behavior.</p>
+R : Ce programme trie les fichiers et les dossiers sur le bureau de l'utilisateur dans des sous-dossiers spécifiques en fonction de leur type de fichier ou d'autres critères.
 
-<p><strong>Q: What if the <code>config.json</code> file doesn't exist?</strong></p>
-<p>A: If the <code>config.json</code> file doesn't exist, the program will create a default one with pre-defined values for each category.</p>
+**Q : Comment ce programme détermine-t-il quels fichiers vont dans quels sous-dossiers ?**
 
-<h2>License</h2>
+R : Le programme lit un fichier de configuration (config.json) pour déterminer quelles extensions de fichier appartiennent à quelles catégories (par exemple, images, audio, vidéos, etc.). Vous pouvez modifier ce fichier pour personnaliser le comportement de tri.
 
-<p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
+**Q : Que se passe-t-il si le fichier config.json n'existe pas ?**
+
+R : Si le fichier config.json n'existe pas, le programme en créera un par défaut avec des valeurs prédéfinies pour chaque catégorie.
+
+## Licence
+
+Ce projet est sous licence MIT. Voir le[LICENCE](LICENSE)fichier pour plus de détails.
